@@ -13,6 +13,9 @@ public class Main {
         Passport sgPassport = new Passport(
                 "S8707772A", "Singapore", LocalDate.of(2024, 11, 19));
 
+        Passport inPassport = new Passport(
+                "S8912345F", "Malaysia", LocalDate.of(2024, 11, 19));
+
     }
     static class Passport {
         String number;
